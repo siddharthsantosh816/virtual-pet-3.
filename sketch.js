@@ -153,7 +153,7 @@ function feedDog(){
     database.ref('/').update({
     Food:foodObj.deductFoodStock(),
     FeedTime:hour(),
-    gameState: Happy
+    gameState: "Happy"
   })
 }
 
