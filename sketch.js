@@ -113,7 +113,11 @@ function draw() {
     dog.addImage(dogImg);
     foodObj.display();
   }
-   
+  
+  if(currentTime < fedTime) {
+    currentTime = currentTime+24;
+  }
+	
   if(currentTime===fedTime+1){
      foodObj.garden();
      updateStatus("Playing");
