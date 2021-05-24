@@ -49,7 +49,7 @@ function setup(){
     dogName = data.val();
   });
 
-   if (dogName === undefined) {
+   if (dogName === "undefined") {
       input = createInput("");
       input.position(820, 400);
 
